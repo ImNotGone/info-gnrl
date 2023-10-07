@@ -73,3 +73,28 @@ Donde:
     - `[4, 3]`, el peso de las cajas en la plataforma 2
     - `[6]`, el peso de la caja en la plataforma 3
 
+## Ejercicio 2
+El archivo `monumentos.csv` contiene informacion sobre lugares y monumentos historicos en todo el pais.
+Es cun archivo de tipo CSV que contient los siguientes campos, niguno de los cuales esta vacio:
+```
+PROVINCIA, LOCALIDAD, LATITUD, LONGITUD, INAUGURACION, NORMA, NUMERO
+```
+ - Las columnas LATITUD y LONGITUD contienen un numero de tipo float con 8 decimales
+ - La columna INAUGURACION representa una fecha en el formato `dia/mes/anio` donde `dia` y `mes` le pueden corresponder 1 o 2 caracteres, y anio siempre tiene 4 caracteres.
+ - La columna NORMA solo puede tener 2 calores, 'Decreto' o 'Ley'
+ - Y por ultimo NUMERO representa un entero positivo, el numero de la norma correspondiente.
+
+Se requiere un programa para procesar esta informacion a traves de las siguientes funcionalidades:
+
+ a. Guardar en un archivo de texto llamado `ranking.txt` un ranking de provincias, ordenadas de menor a mayor por cantidad de monumentos.
+ Ejemplo de formato de escritura en el archivo:
+ ```
+ BUENOS AIRES 33
+ CORDOBA 45
+ MENDOZA 80
+ ```
+ 
+ b. Generar y mostrar una lista de todos los monumentos/sitios historicos inaugurados en un anio ingresado por el usuario, ordenados por el nombre de la provincia en orden alfabetico descendente (Z-A o z-a).
+ Si para el anio ingresado no hay registros se debe informar al usuario y darle la opcion de ingresar otro.
+
+ c. Preguntar al usuario una latitud (latitud 1) y una longitud (longitud 1). Encotrar  el monumento mas cercano y mostrarlo por pantalla
