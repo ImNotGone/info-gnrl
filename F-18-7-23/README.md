@@ -97,4 +97,11 @@ Se requiere un programa para procesar esta informacion a traves de las siguiente
  b. Generar y mostrar una lista de todos los monumentos/sitios historicos inaugurados en un anio ingresado por el usuario, ordenados por el nombre de la provincia en orden alfabetico descendente (Z-A o z-a).
  Si para el anio ingresado no hay registros se debe informar al usuario y darle la opcion de ingresar otro.
 
- c. Preguntar al usuario una latitud (latitud 1) y una longitud (longitud 1). Encotrar  el monumento mas cercano y mostrarlo por pantalla
+ c. Preguntar al usuario una latitud (latitud1) y una longitud (longitud1). Encotrar  el monumento mas cercano y mostrarlo por pantalla. Si hay mas de uno a igual distancia mostrarlos todos. La visualizacion debe incluir: `Provincia`, `Localidad` y `Distancia` calculada.
+ Para calcular la distancia, la aproximamos por la distancia en el plano:
+  
+  Dados dos puntos con coordeadas (latitud1, longitud1) y (latitud2, longitud2)
+ ```py
+ distancia = ((latitud2-latitud1)**2 + (longitud2-longitud1)**2) ** 1/2
+ ```
+ 
