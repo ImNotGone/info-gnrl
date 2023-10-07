@@ -55,9 +55,9 @@ Debe devolver:
 [ [5, 2], [4], [3] ]
 ```
 Donde:
-    - `[5, 2]`, corresponde a los pesos de las cajas en la plataforma 1
-    - `[4]`, el peso de la caja en la plataforma 2
-    - `[3]`, el peso de la caja en la plataforma 3
+ - `[5, 2]`, corresponde a los pesos de las cajas en la plataforma 1
+ - `[4]`, el peso de la caja en la plataforma 2
+ - `[3]`, el peso de la caja en la plataforma 3
 
 #### Ejemplo 2
 ```py
@@ -69,9 +69,9 @@ Debe devolver:
 [ [5, 2, 1], [4, 3], [6] ]
 ```
 Donde:
-    - `[5, 2, 1]`, corresponde a los pesos de las cajas en la plataforma 1
-    - `[4, 3]`, el peso de las cajas en la plataforma 2
-    - `[6]`, el peso de la caja en la plataforma 3
+ - `[5, 2, 1]`, corresponde a los pesos de las cajas en la plataforma 1
+ - `[4, 3]`, el peso de las cajas en la plataforma 2
+ - `[6]`, el peso de la caja en la plataforma 3
 
 ## Ejercicio 2
 El archivo `monumentos.csv` contiene informacion sobre lugares y monumentos historicos en todo el pais.
