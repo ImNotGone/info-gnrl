@@ -4,7 +4,9 @@ a 1) donde hay que buscar palabras. Las palabras pueden aparecer escritas al der
 revés y pueden estar ubicadas en forma vertical u horizontal dentro de la matriz, como puede
 verse en la siguiente imagen.
 
-!(matriz-sopa-de-letras)[./img-mat.jpeg]
+<p align="center">
+  <img width="200" src="https://github.com/ImNotGone/info-gnrl/blob/main/F-17-12-22/img-mat.jpeg">
+</p>
 
 Hacer un programa que invoque a una función jugar que reciba una matriz de letras y una
 lista de palabras. La función deberá devolver dos listas, una con las palabras de la lista dada,
